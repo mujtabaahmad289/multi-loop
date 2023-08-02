@@ -1,0 +1,54 @@
+/* styles.css */
+/* Default font size for all screens */
+body {
+    
+    font-size: 16px;
+  }
+  
+  /* Media query for smaller screens (e.g., mobile) */
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  
+  h1 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #777;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a04545;
+  }
+  
+  #patternOutput {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  h1 + label {
+    margin-top: 20px;
+  }
+  
